@@ -1,0 +1,23 @@
+{
+    "go_mod_package": "github.com/cage/alfred-pdf2image",
+    "workflow": {
+        "folder": ".workflow",
+        "name": "PDF to image",
+        "description": "Convert PDF to image",
+        "category_comment": "category: Tools, Internet, Productivity, Uncategorised",
+        "category": "Tools",
+        "bundle_id": "com.kaichu.pdf2image",
+        "created_by": "KAI CHU CHUNG",
+        "web_address": "https://github.com/cage/alfred-pdf2image",
+        "version": "0.1.0"
+    },
+    "update": {
+        "github_repo": "https://github.com/cage/alfred-pdf2image"
+    },
+    "license": {
+        "type_comment": "support license https://github.com/nishanths/license",
+        "type": "mit",
+        "year": "2022",
+        "name": "KAI CHU CHUNG"
+    }
+}

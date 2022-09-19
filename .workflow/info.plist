@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>bundleid</key>
+		<string>com.kaichu.pdf2image</string>
+		
+		<key>category</key>
+		<string>Tools</string>
+		
+		<key>connections</key>
+		<dict>
+		</dict>
+		<key>createdby</key>
+		<string>KAI CHU CHUNG</string>
+		<key>description</key>
+		<string>Convert PDF to image</string>
+		<key>disabled</key>
+		<false/>
+		<key>name</key>
+		<string>PDF to image</string>
+		<key>objects</key>
+		<array>
+		</array>
+		<key>readme</key>
+		<string/>
+		<key>uidata</key>
+		<dict>
+		</dict>
+		<key>userconfigurationconfig</key>
+		<array>
+		</array>
+		<key>version</key>
+		<string>0.1.0</string>
+		<key>webaddress</key>
+		<string>https://github.com/cage/alfred-pdf2image</string>
+	</dict>
+</plist>
