@@ -1,38 +1,494 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.kaichu.pdf2image</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
 	<dict>
-		<key>bundleid</key>
-		<string>com.kaichu.pdf2image</string>
-		
-		<key>category</key>
-		<string>Tools</string>
-		
-		<key>connections</key>
-		<dict>
-		</dict>
-		<key>createdby</key>
-		<string>KAI CHU CHUNG</string>
-		<key>description</key>
-		<string>Convert PDF to image</string>
-		<key>disabled</key>
-		<false/>
-		<key>name</key>
-		<string>PDF to image</string>
-		<key>objects</key>
+		<key>627BAF87-D893-4C8F-9F49-DD02CC162198</key>
 		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>85FC0563-75D5-450D-BBE7-BD87BCD01455</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
-		<key>readme</key>
-		<string/>
-		<key>uidata</key>
-		<dict>
-		</dict>
-		<key>userconfigurationconfig</key>
+		<key>85FC0563-75D5-450D-BBE7-BD87BCD01455</key>
 		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D05592CA-03D6-48E5-9B59-7E02276FB502</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
-		<key>version</key>
-		<string>0.1.0</string>
-		<key>webaddress</key>
-		<string>https://github.com/cage/alfred-pdf2image</string>
+		<key>A780ED91-DE9F-48AD-8CD0-43B7F53629C3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FA247092-23B7-415E-A8B3-66B85DC0B8D3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CFCB2405-609D-4415-B9F4-8141D8D15D75</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F7FDE776-539C-41D5-9780-9CFE01B03278</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D05592CA-03D6-48E5-9B59-7E02276FB502</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A780ED91-DE9F-48AD-8CD0-43B7F53629C3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F7FDE776-539C-41D5-9780-9CFE01B03278</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D05592CA-03D6-48E5-9B59-7E02276FB502</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FA247092-23B7-415E-A8B3-66B85DC0B8D3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4C326531-15D0-4415-9FFB-E37F743D2BEE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>6D8D656A-0353-4503-B4C8-D2466DA6113E</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>8269A0C0-5DBB-4BC9-A23F-9EEECB892222</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
+	<key>createdby</key>
+	<string>KAI CHU CHUNG</string>
+	<key>description</key>
+	<string>Convert PDF to image</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>PDF to image</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<integer>0</integer>
+				<key>filetypes</key>
+				<array>
+					<string>com.adobe.pdf</string>
+				</array>
+				<key>name</key>
+				<string>Convert PDF to images</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>CFCB2405-609D-4415-B9F4-8141D8D15D75</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{var:error}</string>
+				<key>title</key>
+				<string>PDF to image</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>4C326531-15D0-4415-9FFB-E37F743D2BEE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>abs_path</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>F7FDE776-539C-41D5-9780-9CFE01B03278</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>e.g. "2, 5-8, 20-, -20, -"</string>
+				<key>text</key>
+				<string>Enter page numbers and/or page ranges.</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>D05592CA-03D6-48E5-9B59-7E02276FB502</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>./exe convert -f "${abs_path}" -- "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>slice_multi.py</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A780ED91-DE9F-48AD-8CD0-43B7F53629C3</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:error}</string>
+						<key>matchcasesensitive</key>
+						<true/>
+						<key>matchmode</key>
+						<integer>1</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Error</string>
+						<key>uid</key>
+						<string>6D8D656A-0353-4503-B4C8-D2466DA6113E</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>success</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>FA247092-23B7-415E-A8B3-66B85DC0B8D3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemAlternateNames</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>pdf2imgf</string>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array/>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Find PDF and convert to image</string>
+				<key>title</key>
+				<string>Find PDF and convert to image</string>
+				<key>types</key>
+				<array>
+					<string>com.adobe.pdf</string>
+				</array>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>627BAF87-D893-4C8F-9F49-DD02CC162198</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{var:file} page "{var:page}" to image success</string>
+				<key>title</key>
+				<string>PDF to image</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>8269A0C0-5DBB-4BC9-A23F-9EEECB892222</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>abs_path</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>85FC0563-75D5-450D-BBE7-BD87BCD01455</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># alfred PDF to image
+
+Convert PDF to image with Alfred.
+
+![](./alfred-pdf2img.jpg)
+
+## Features
+
+- Convert PDF to image by page range
+
+## Requires
+- Preferably Alfred 5
+
+## Usage
+
+![](./usage.jpg)
+
+- File Filter keyword: `pdf2img` or File action to pick up PDF file
+- Enter page numbers and/or page ranges.
+  - `2` means page 2
+  - `5-8` means page 5 to 8
+  - `-20` means page 1 to 20
+  - `20-` means page 20 to last page
+  - `-` means all pages
+
+## Third Party Library
+
+- [gen2brain/go-fitz: Golang wrapper for the MuPDF Fitz library](https://github.com/gen2brain/go-fitz)
+
+## Change Log
+
+### 0.1.0
+- Initial release
+
+https://github.com/cage1016/alfred-pdf2image</string>
+	<key>uidata</key>
+	<dict>
+		<key>4C326531-15D0-4415-9FFB-E37F743D2BEE</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<real>795</real>
+			<key>ypos</key>
+			<real>230</real>
+		</dict>
+		<key>627BAF87-D893-4C8F-9F49-DD02CC162198</key>
+		<dict>
+			<key>xpos</key>
+			<real>40</real>
+			<key>ypos</key>
+			<real>350</real>
+		</dict>
+		<key>8269A0C0-5DBB-4BC9-A23F-9EEECB892222</key>
+		<dict>
+			<key>xpos</key>
+			<real>795</real>
+			<key>ypos</key>
+			<real>365</real>
+		</dict>
+		<key>85FC0563-75D5-450D-BBE7-BD87BCD01455</key>
+		<dict>
+			<key>xpos</key>
+			<real>205</real>
+			<key>ypos</key>
+			<real>380</real>
+		</dict>
+		<key>A780ED91-DE9F-48AD-8CD0-43B7F53629C3</key>
+		<dict>
+			<key>note</key>
+			<string>Convert PDF to images</string>
+			<key>xpos</key>
+			<real>515</real>
+			<key>ypos</key>
+			<real>280</real>
+		</dict>
+		<key>CFCB2405-609D-4415-B9F4-8141D8D15D75</key>
+		<dict>
+			<key>xpos</key>
+			<real>40</real>
+			<key>ypos</key>
+			<real>215</real>
+		</dict>
+		<key>D05592CA-03D6-48E5-9B59-7E02276FB502</key>
+		<dict>
+			<key>xpos</key>
+			<real>335</real>
+			<key>ypos</key>
+			<real>280</real>
+		</dict>
+		<key>F7FDE776-539C-41D5-9780-9CFE01B03278</key>
+		<dict>
+			<key>xpos</key>
+			<real>205</real>
+			<key>ypos</key>
+			<real>245</real>
+		</dict>
+		<key>FA247092-23B7-415E-A8B3-66B85DC0B8D3</key>
+		<dict>
+			<key>xpos</key>
+			<real>680</real>
+			<key>ypos</key>
+			<real>300</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>version</key>
+	<string>0.1.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/cage/alfred-pdf2image</string>
+</dict>
 </plist>
