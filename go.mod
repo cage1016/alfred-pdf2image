@@ -1,4 +1,4 @@
-module github.com/cage/alfred-pdf2image
+module github.com/cage1016/alfred-pdf2image
 
 go 1.17
 

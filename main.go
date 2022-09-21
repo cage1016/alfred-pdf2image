@@ -6,7 +6,7 @@ package main
 import (
 	_ "github.com/joho/godotenv/autoload"
 
-	"github.com/cage/alfred-pdf2image/cmd"
+	"github.com/cage1016/alfred-pdf2image/cmd"
 )
 
 func main() {

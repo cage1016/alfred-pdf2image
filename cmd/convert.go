@@ -16,7 +16,7 @@ import (
 	"github.com/gen2brain/go-fitz"
 	"github.com/spf13/cobra"
 
-	"github.com/cage/alfred-pdf2image/lib"
+	"github.com/cage1016/alfred-pdf2image/lib"
 )
 
 var (
