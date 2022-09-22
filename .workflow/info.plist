@@ -410,6 +410,9 @@ Convert PDF to image with Alfred.
 
 ## Change Log
 
+### 0.1.1
+- Fix bug: correct workflow update repo url
+
 ### 0.1.0
 - Initial release
 
@@ -487,7 +490,7 @@ https://github.com/cage1016/alfred-pdf2image</string>
 	<key>userconfigurationconfig</key>
 	<array/>
 	<key>version</key>
-	<string>0.1.0</string>
+	<string>0.1.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/cage1016/alfred-pdf2image</string>
 </dict>

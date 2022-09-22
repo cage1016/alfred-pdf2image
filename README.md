@@ -38,6 +38,9 @@ Make sure to download the latest released directly from the releases page. [Down
 
 ## Change Log
 
+### 0.1.1
+- Fix bug: correct workflow update repo url
+
 ### 0.1.0
 - Initial release
 
