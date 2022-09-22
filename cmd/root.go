@@ -17,7 +17,7 @@ import (
 const updateJobName = "checkForUpdate"
 
 var (
-	repo = "cage/alfred-pdf2image"
+	repo = "cage1016/alfred-pdf2image"
 	wf   *aw.Workflow
 )
 
