@@ -1,6 +1,5 @@
 /*
 Copyright © 2022 KAI CHU CHUNG <cage.chung@gmail.com>
-
 */
 package cmd
 
@@ -67,7 +66,15 @@ func runConvertCmd(cmd *cobra.Command, args []string) {
 				ErrorHandle(fmt.Errorf("cannot convert page %d: %v", j, err))
 				return
 			}
-			f, err := os.Create(filepath.Join(dir, fmt.Sprintf("%s-part%d-%03d.jpg", fn, i+1, j)))
+
+			var f *os.File
+			// https://github.com/cage1016/alfred-pdf2image/issues/1
+			if doc.NumPage() == 1 && r.Start == 1 && r.End == 1 {
+				f, err = os.Create(filepath.Join(dir, fmt.Sprintf("%s.jpg", fn)))
+			} else {
+				f, err = os.Create(filepath.Join(dir, fmt.Sprintf("%s-part%d-%03d.jpg", fn, i+1, j)))
+			}
+
 			if err != nil {
 				ErrorHandle(fmt.Errorf("cannot create file: %v", err))
 				return
