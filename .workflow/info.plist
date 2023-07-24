@@ -185,25 +185,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>subtext</key>
-				<string>e.g. "2, 5-8, 20-, -20, -"</string>
-				<key>text</key>
-				<string>Enter page numbers and/or page ranges.</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>D05592CA-03D6-48E5-9B59-7E02276FB502</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -223,6 +204,25 @@
 			<string>A780ED91-DE9F-48AD-8CD0-43B7F53629C3</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>e.g. "2, 5-8, 20-, -20, -"</string>
+				<key>text</key>
+				<string>Enter page numbers and/or page ranges.</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>D05592CA-03D6-48E5-9B59-7E02276FB502</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -410,6 +410,9 @@ Convert PDF to image with Alfred.
 
 ## Change Log
 
+### 0.2.0
+- Add a single page document, save the image as the same filename as the pdf
+
 ### 0.1.1
 - Fix bug: correct workflow update repo url
 
@@ -490,7 +493,7 @@ https://github.com/cage1016/alfred-pdf2image</string>
 	<key>userconfigurationconfig</key>
 	<array/>
 	<key>version</key>
-	<string>0.1.1</string>
+	<string>0.2.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/cage1016/alfred-pdf2image</string>
 </dict>
