@@ -95,3 +95,4 @@ Temporary Items
 .workflow/exe
 testenv
 coverage.txt
+.workflow/prefs.plist
